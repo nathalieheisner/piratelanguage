@@ -1,0 +1,38 @@
+.wrapper {
+    grid-template-columns: 1fr, 2fr, 1fr ;    
+}
+
+header{
+    background-image: url(resources/pirate.png);
+    background-size: 30%;
+    background-color: black;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+textarea{
+    width: 50%;
+}
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+
+}
+h1.blabla{
+    background-color: hotpink;
+}
